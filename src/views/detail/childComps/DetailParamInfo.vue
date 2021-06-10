@@ -6,6 +6,7 @@
         <td v-for="(td, indez) in tr" :key="indez">{{td}}</td>
       </tr>
     </table>
+    
     <table class="info-param">
       <tr v-for="(info, index) in paramInfo.infos">
         <td class="info-param-key">{{info.key}}</td>
